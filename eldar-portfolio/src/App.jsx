@@ -22,14 +22,14 @@ function App() {
       <main className="bg-gradient-to-b from-[#fff1eb] to-[#ace0f9] dark:bg-gradient-to-b dark:from-[#0B2447] dark:to-[#19376D]">
         <section className="min-h-60 mx-5">
           <nav className="p-5 flex flex-col gap-5 md:flex-row justify-between">
-            <h1 className="text-2xl font-burtons mr-3 text-center dark:text-white">
+            <h1 className="text-2xl font-burtons mr-3 text-center dark:text-[#b3b3b3]">
               Hi,
             </h1>
             <ul className="flex flex-row items-center justify-center">
               <li>
                 {darkMode ? (
                   <MdOutlineDarkMode
-                    className="text-white"
+                    className="text-[#b3b3b3]"
                     onClick={toggleDarkMode}
                   />
                 ) : (
@@ -38,7 +38,7 @@ function App() {
               </li>
               <li>
                 <a
-                  className="ring-1 ring-blue-500 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-400 dark:text-white text-black hover:text-white px-4 py-2 rounded-md ml-6"
+                  className="ring-1 ring-blue-500 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-400 dark:text-[#b3b3b3] text-black hover:text-white dark:hover:text-white px-4 py-2 rounded-md ml-6"
                   href={cv}
                   download="Eldar_Heleg_Resume"
                 >
@@ -59,11 +59,11 @@ function App() {
               </h2>
               <div className="flex justify-center items-center py-6 gap-4 lg:justify-start">
                 <FaCode className="min-h-8 min-w-8 size-10 text-blue-500" />
-                <h3 className="text-xl max-h-lg md:text-xl lg:text-left lg:text-2xl mx-1 text-wrap capitalize dark:text-white">
+                <h3 className="text-xl max-h-lg md:text-xl lg:text-left lg:text-2xl mx-1 text-wrap capitalize dark:text-[#b3b3b3]">
                   Developer & /* <i>designer</i> */
                 </h3>
               </div>
-              <p className="text-md  md:text-lg lg:text-xl text-left text-wrap dark:text-white">
+              <p className="text-sm  md:text-md md:text-center lg:text-left lg:text-lg max-w-md text-left text-wrap dark:text-[#b3b3b3]">
                 A software engineer who welcomes challenges in web and app
                 development. Finishing my bachelor thesis at the University of
                 Zenica, Bosnia and Herzegovina. Exploring the world of software
